@@ -1,0 +1,34 @@
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.fuzz-container {
+  border: 2px solid #FF7A00;
+  padding: 20px;
+  text-align: center;
+}
+
+.fuzz-face {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.menu div {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
